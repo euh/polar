@@ -62,6 +62,8 @@ def output_tcx(parsed)
                   "Running"
                 when 2    # Biking
                   "Biking"
+                when 3    # Walking
+                  "Walking"
                 when 11   # Hiking
                   "Hiking"
                 else
